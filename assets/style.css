@@ -42,8 +42,8 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  align-content: center;
   width: 100%;
-  height: 600px;
   background-image: url(images/car-bg.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -52,17 +52,28 @@ header{
   background-blend-mode: screen;
   box-shadow: inset 0 -6px 6px #212121;
 }
+.main-logo{
+  margin: 2rem;
+  padding: 2rem;
+  align-self: flex-start;
+  background-image: url(images/klulogo3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 5rem;
+  width: 30rem;
+}
 .logo{
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 15rem;
 }
 .logo-img{
-  margin-top: 10rem;
-  height: 20rem;
-  width: 120rem;
+  height: 10rem;
+  width: 80rem;
 }
 .logo-name{
   font-size: 6rem;
@@ -74,6 +85,8 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  align-content: center;
+  margin-top: 25rem;
 }
 .menu a{
   padding: 2rem;
